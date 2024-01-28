@@ -33,25 +33,40 @@ export const LoginPage: React.FC = ({loginStatus, checkLoginStatus, checkLoginNa
     }
 
     const loginFunction = async (e) => {
-        e.preventDefault()
-        await Axios.post('http://localhost:3001/login', {
-            login: login,
-            password: password,
-        }).then((response) => {
+        e.preventDefault();
+
+        try {
+            const response = await Axios.post('http://localhost:3001/login', {
+                login: login,
+                password: password,
+            });
+
             if (!response.data.auth) {
-                checkLoginStatus(false)
+                alert(response.data.message);
+                checkLoginStatus(false);
             } else {
-                localStorage.setItem('token', response.data.token)
-                localStorage.setItem('login', response.data.login)
-                localStorage.setItem('status', response.data.status)
-                localStorage.setItem('id', response.data.id)
-                checkLoginStatus(true)
-                checkLoginName(response.data.login)
-
+                localStorage.setItem('token', response.data.token);
+                localStorage.setItem('login', response.data.login);
+                localStorage.setItem('status', response.data.status);
+                localStorage.setItem('id', response.data.id);
+                checkLoginStatus(true);
+                checkLoginName(response.data.login);
             }
+        } catch (error) {
+            console.error('Błąd logowania:', error.response ? error.response.data : 'Nieznany błąd');
 
-        })
-    }
+            if (error.response && error.response.status === 401) {
+                alert('Nieprawidłowy login lub hasło.');
+            } else {
+                alert('Wystąpił błąd podczas logowania. Spróbuj ponownie później.');
+            }
+        }
+    };
+
+
+
+
+
 
 
     return <>

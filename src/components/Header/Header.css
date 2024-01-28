@@ -11,35 +11,13 @@
 #header-inside {
     background-color: #1E1E1F;
     width: 60%;
-
     height: 65px;
     margin: auto;
-
 }
-
-
-#logo {
-    float: left;
-    height: 45px;
-    padding-top: 12px;
-
-}
-
 
 #user {
     float: right;
     line-height: 65px;
-
-}
-
-#header-avatar {
-    border-radius: 50%;
-    height: 40px;
-    /*position: absolute;*/
-    margin-top: 14px;
-    margin-right: 10px;
-    float: right;
-
 }
 
 #show-more-button-header {
@@ -49,9 +27,7 @@
     color: #666666;
     cursor: pointer;
     line-height: 65px;
-
 }
-
 
 .add-book-button {
     background-color: #E02735;
@@ -62,5 +38,4 @@
     margin-top: 18px;
     font-size: 15px;
     float: left;
-
 }

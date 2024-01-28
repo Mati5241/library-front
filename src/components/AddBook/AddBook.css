@@ -29,21 +29,6 @@
     border-radius: 10px;
 }
 
-/*#clean-button {*/
-/*    background-color: #172A35;*/
-/*    border: none;*/
-/*    color: #F7F7F7;*/
-/*    padding: 5px 10px 5px 10px;*/
-/*    float: right;*/
-/*    cursor: pointer;*/
-/*    margin-top: 7px;*/
-/*}*/
-
-/*#header-filter {*/
-/*    float: left;*/
-/*    font-size: 25px;*/
-/*    font-weight: bold;*/
-/*}*/
 
 .close-filter-button {
     cursor: pointer;
@@ -69,28 +54,7 @@
 }
 
 
-#input-select-experience {
-    background-color: #292A2B;
-    color: #F7F7F7;
-    border: none;
-    padding: 7px 10px 7px 10px;
-    font-size: 12px;
-    margin-top: 5px;
 
-}
-
-
-/*.one-line-filter {*/
-/*    margin-bottom: 15px;*/
-/*    line-height: 20px;*/
-/*    !*background-color: red;*!*/
-/*}*/
-
-
-/*.buttons-filter {*/
-/*    float: right;*/
-/*    margin-top: 25px;*/
-/*}*/
 
 .add-button {
     background-color: #E02735;
@@ -102,16 +66,3 @@
     font-size: 20px;
 
 }
-
-
-
-/*.grade-input {*/
-/*    background-color: #292A2B;*/
-/*    color: #F7F7F7;*/
-/*    border: none;*/
-/*    padding: 7px 10px 7px 10px;*/
-/*    font-size: 12px;*/
-/*    width: 95%;*/
-/*    margin-top: 5px;*/
-
-/*}*/

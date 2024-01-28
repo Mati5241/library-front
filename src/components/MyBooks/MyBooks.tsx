@@ -32,43 +32,12 @@ export const MyBooks = ({closeMyBooks}) => {
     refresh()
 
 
-    // const [form, setForm] = useState({
-    //     title: '',
-    //     isbn: '',
-    //     autor: '',
-    // })
-
-
-    // const sendForm = async (e) => {
-    //     e.preventDefault()
-    //
-    //
-    //     await fetch(`http://localhost:3001/addbook`, {
-    //         method: 'POST',
-    //         headers: {
-    //             'Content-Type': 'application/json',
-    //         },
-    //         body: JSON.stringify(form),
-    //     });
-    //
-    //     closeForm()
-    // }
-
-
-    // const updateForm = (key: string, value) => {
-    //
-    //     setForm(form => ({
-    //         ...form,
-    //         [key]: value,
-    //     }));
-    // }
-
 
     return <>
 
         <div className="modal">
             <div className="overlay"></div>
-            <div className="modal-content">
+            <div className="modal-content-my-books">
 
 
                 <h1>Moje książki</h1>

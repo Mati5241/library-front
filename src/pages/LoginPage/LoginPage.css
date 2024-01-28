@@ -52,17 +52,8 @@ body {
     font-size: 14px;
     width: 200px;
     margin-top: 5px;
-
 }
 
-.forgot-password-button {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #fff;
-    background: none;
-    border: none;
-    cursor: pointer;
-}
 
 
 .register-text {

@@ -7,7 +7,6 @@
 .menu-div {
     padding: 15px 0 15px 0;
     line-height: 30px;
-
 }
 
 #filter-button {
@@ -30,23 +29,6 @@
     width: 300px;
 }
 
-.choose-page-button {
-    color: #D7D7D7;
-    float: left;
-    padding-right: 40px;
-    font-size: 0.99rem;
-    cursor: pointer;
-}
-
-.choose-page-button-selected {
-    color: #FAFAFA;
-    float: left;
-    padding-right: 40px;
-    font-size: 1rem;
-    cursor: pointer;
-}
-
-
 .hr-long {
     border: 1px solid #1E1E1F;
     margin: 0;
@@ -55,19 +37,6 @@
 .hr-short {
     border: 1px solid #1E1E1F;
 }
-
-.hr-red-left {
-    border: 1px solid red;
-    margin: 0;
-    width: 175px;
-}
-
-.hr-red-right {
-    border: 1px solid red;
-    margin: 0 175px;
-    width: 118px;
-}
-
 
 .modal .overlay {
     width: 100vw;
