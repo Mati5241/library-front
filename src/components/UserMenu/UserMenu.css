@@ -1,0 +1,20 @@
+#user-menu-div {
+    background-color: #1E1E1F;
+    height: 70px;
+    width: 200px;
+    position: absolute;
+    right: 192px;
+    margin-top: 65px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+
+.text-menu {
+    font-size: 15px;
+    line-height: 30px;
+    color: #FAFAFA;
+    cursor: pointer;
+}
+

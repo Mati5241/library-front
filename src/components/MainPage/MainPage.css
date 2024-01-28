@@ -1,0 +1,53 @@
+#page {
+    width: 60%;
+    margin: auto;
+    background-color: #292A2B;
+}
+
+.menu-div {
+    padding: 15px 0 15px 0;
+    line-height: 30px;
+}
+
+#filter-button {
+    float: right;
+    background-color: #1E1E1F;
+    border: none;
+    height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #D7D7D7;
+    cursor: pointer;
+}
+
+#input-search {
+    background-color: #1E1E1F;
+    color: #6C6C6C;
+    border: none;
+    float: left;
+    height: 30px;
+    width: 300px;
+}
+
+.hr-long {
+    border: 1px solid #1E1E1F;
+    margin: 0;
+}
+
+.hr-short {
+    border: 1px solid #1E1E1F;
+}
+
+.modal .overlay {
+    width: 100vw;
+    height: 100vw;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49, 49, 49, 0.8);
+}
