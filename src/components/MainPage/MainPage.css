@@ -1,0 +1,86 @@
+#page {
+    width: 75%;
+    margin: auto;
+    background-color: #292A2B;
+}
+
+.menu-div {
+    padding: 15px 25px 15px 25px;
+    line-height: 30px;
+
+}
+
+#filter-button {
+    float: right;
+    background-color: #1E1E1F;
+    border: none;
+    height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #D7D7D7;
+    cursor: pointer;
+}
+
+#input-search {
+    background-color: #1E1E1F;
+    color: #6C6C6C;
+    border: none;
+    float: left;
+    height: 30px;
+    width: 300px;
+}
+
+.choose-page-button {
+    color: #D7D7D7;
+    float: left;
+    padding-right: 40px;
+    font-size: 0.99rem;
+    cursor: pointer;
+}
+
+.choose-page-button-selected {
+    color: #FAFAFA;
+    float: left;
+    padding-right: 40px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+.hr-long {
+    border: 1px solid #1E1E1F;
+    margin: 0;
+}
+
+.hr-short {
+    border: 1px solid #1E1E1F;
+    margin: 0 25px 0 25px;
+
+}
+
+.hr-red-left {
+    border: 1px solid red;
+    margin: 0;
+    width: 175px;
+}
+
+.hr-red-right {
+    border: 1px solid red;
+    margin: 0 175px;
+    width: 118px;
+}
+
+
+.modal .overlay {
+    width: 100vw;
+    height: 100vw;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49, 49, 49, 0.8);
+}

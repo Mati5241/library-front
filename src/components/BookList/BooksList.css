@@ -1,0 +1,116 @@
+.page-div {
+    width: 75%;
+    margin: auto;
+    background-color: #292A2B;
+    padding-bottom: 20px;
+}
+
+
+#students-list-page {
+    width: 75%;
+    margin: auto;
+    /*padding-top: 20px;*/
+    background-color: #292A2B;
+    /*min-height: 200px;*/
+    padding-bottom: 20px;
+}
+
+
+#students-list {
+    color: #FAFAFA;
+    margin-left: 25px;
+    margin-right: 25px;
+
+
+
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    padding-left: 0;
+}
+
+li {
+    /*padding: 15px 0 15px 0;*/
+    line-height: 60px;
+    text-align: left;
+
+}
+
+hr {
+    border: 7px solid #1E1E1F;
+    margin: 0;
+}
+
+
+.student {
+    padding-left: 15px;
+    font-size: 13px;
+
+}
+
+
+.show-more-button {
+    float: right;
+    margin-right: 15px;
+    color: #666666;
+    cursor: pointer;
+}
+
+.class-button {
+    background-color: #E02735;
+    border: none;
+    color: #FAFAFA;
+    height: 30px;
+    width: 150px;
+    margin-right: 20px;
+    font-size: 12px;
+    cursor: pointer;
+    float: right;
+    margin-top: 17px;
+}
+
+
+
+#foot {
+    color: #FAFAFA;
+    font-size: 11px;
+    /*margin-top: 20px;*/
+    /*margin-bottom: 20px;*/
+    text-align: right;
+    width: 75%;
+    margin: 20px auto 20px auto;
+}
+
+
+.previous-next-button {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    background-color: #CFCFCF;
+    border: none;
+    cursor: pointer;
+}
+
+
+.previous-next-button-disabled {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    background-color: #666666;
+    border: none;
+    color: #262626;
+}
+
+
+#select-quantity {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 25px;
+    font-size: 10px;
+    background-color: #CFCFCF;
+    border: none;
+    cursor: pointer;
+
+}

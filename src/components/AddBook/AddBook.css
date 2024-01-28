@@ -1,0 +1,117 @@
+.modal .overlay {
+    width: 100vw;
+    height: 100vw;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49, 49, 49, 0.8);
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #0A0A0A;
+    color: #F7F7F7;
+    padding: 14px 28px;
+    width: 30%;
+    min-width: 300px;
+    height: 70%;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+/*#clean-button {*/
+/*    background-color: #172A35;*/
+/*    border: none;*/
+/*    color: #F7F7F7;*/
+/*    padding: 5px 10px 5px 10px;*/
+/*    float: right;*/
+/*    cursor: pointer;*/
+/*    margin-top: 7px;*/
+/*}*/
+
+/*#header-filter {*/
+/*    float: left;*/
+/*    font-size: 25px;*/
+/*    font-weight: bold;*/
+/*}*/
+
+.close-filter-button {
+    cursor: pointer;
+    background: #0A0A0A;
+    color: #F7F7F7;
+    border: none;
+    float: right;
+    margin-top: 120px;
+}
+
+
+.input-text {
+    background-color: #292A2B;
+    color: #F7F7F7;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    width: 100px;
+    margin-right: 5px;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 10px;
+
+}
+
+
+#input-select-experience {
+    background-color: #292A2B;
+    color: #F7F7F7;
+    border: none;
+    padding: 7px 10px 7px 10px;
+    font-size: 12px;
+    margin-top: 5px;
+
+}
+
+
+/*.one-line-filter {*/
+/*    margin-bottom: 15px;*/
+/*    line-height: 20px;*/
+/*    !*background-color: red;*!*/
+/*}*/
+
+
+/*.buttons-filter {*/
+/*    float: right;*/
+/*    margin-top: 25px;*/
+/*}*/
+
+.add-button {
+    background-color: #E02735;
+    color: #F7F7F7;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    margin-left: 15px;
+    font-size: 20px;
+
+}
+
+
+
+/*.grade-input {*/
+/*    background-color: #292A2B;*/
+/*    color: #F7F7F7;*/
+/*    border: none;*/
+/*    padding: 7px 10px 7px 10px;*/
+/*    font-size: 12px;*/
+/*    width: 95%;*/
+/*    margin-top: 5px;*/
+
+/*}*/
