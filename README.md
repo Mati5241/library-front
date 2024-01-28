@@ -1,30 +1,38 @@
-# React + TypeScript + Vite
+# Library Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the frontend code for a virtual library management system. The system allows users to register, log in, browse available books, borrow and return books. Administrators can manage the library inventory by adding, editing, and deleting books.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React.js:** The frontend of the application is built using React.js, a popular JavaScript library for building user interfaces.
 
-## Expanding the ESLint configuration
+- **Axios:** Axios is used for making HTTP requests to the backend API, facilitating communication between the frontend and backend.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **CSS:** Cascading Style Sheets are employed for styling the user interface, providing a clean and responsive design.
 
-- Configure the top-level `parserOptions` property like this:
+## Installation
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. **Clone the repository:**
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+    ```bash
+    git clone https://github.com/Mati5241/library-front
+    cd frontend
+    ```
+
+2. **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+## Usage
+
+3. **Run the application:**
+
+    ```bash
+    npm start
+    ```
+
+    The application will be accessible at [http://localhost:3000](http://localhost:3000).
+
+Feel free to explore and modify the components based on your needs.
