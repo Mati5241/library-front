@@ -1,11 +1,11 @@
 #page {
-    width: 75%;
+    width: 60%;
     margin: auto;
     background-color: #292A2B;
 }
 
 .menu-div {
-    padding: 15px 25px 15px 25px;
+    padding: 15px 0 15px 0;
     line-height: 30px;
 
 }
@@ -54,8 +54,6 @@
 
 .hr-short {
     border: 1px solid #1E1E1F;
-    margin: 0 25px 0 25px;
-
 }
 
 .hr-red-left {

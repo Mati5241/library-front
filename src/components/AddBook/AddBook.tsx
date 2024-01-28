@@ -48,6 +48,8 @@ export const AddBook = ({closeForm}) => {
                 <form onSubmit={sendForm}>
                     Tytuł
                     <input
+                        required
+                        maxLength='70'
                         className="input-text"
                         type='text'
                         onChange={e => updateForm('title', e.target.value)}
@@ -56,6 +58,8 @@ export const AddBook = ({closeForm}) => {
 
                     ISBN
                     <input
+                        required
+                        maxLength='20'
                         className="input-text"
                         type='text'
                         onChange={e => updateForm('isbn', e.target.value)}
@@ -64,6 +68,8 @@ export const AddBook = ({closeForm}) => {
 
                     Autor
                     <input
+                        required
+                        maxLength='50'
                         className="input-text"
                         type='text'
                         onChange={e => updateForm('autor', e.target.value)}

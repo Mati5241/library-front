@@ -1,5 +1,5 @@
 .page-div {
-    width: 75%;
+    width: 60%;
     margin: auto;
     background-color: #292A2B;
     padding-bottom: 20px;
@@ -7,7 +7,7 @@
 
 
 #students-list-page {
-    width: 75%;
+    width: 60%;
     margin: auto;
     /*padding-top: 20px;*/
     background-color: #292A2B;
@@ -16,11 +16,10 @@
 }
 
 
-#students-list {
+.books-list {
     color: #FAFAFA;
     margin-left: 25px;
     margin-right: 25px;
-
 
 
 }
@@ -44,9 +43,9 @@ hr {
 }
 
 
-.student {
+.book {
     padding-left: 15px;
-    font-size: 13px;
+    font-size: 17px;
 
 }
 
