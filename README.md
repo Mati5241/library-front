@@ -33,6 +33,6 @@ This repository contains the frontend code for a virtual library management syst
     npm start
     ```
 
-    The application will be accessible at [http://localhost:3000](http://localhost:3000).
+ 
 
 Feel free to explore and modify the components based on your needs.
