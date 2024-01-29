@@ -1,6 +1,6 @@
 import './BooksList.css';
 import {useState} from "react";
-import {BookInfo} from "../BookInfo/BookInfo";
+import {BookInfo} from "../StudentInfo/BookInfo";
 
 
 export const BooksList = ({userStatus}) => {
