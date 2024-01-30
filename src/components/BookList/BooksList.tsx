@@ -1,6 +1,6 @@
 import './BooksList.css';
 import {useState} from "react";
-import {BookInfo} from "../StudentInfo/BookInfo";
+import {BookInfo} from "../BookInfo/BookInfo";
 
 
 export const BooksList = ({userStatus}) => {
@@ -46,6 +46,8 @@ export const BooksList = ({userStatus}) => {
     const borrowBook = async (bookId) => {
         // e.preventDefault()
 
+        const token = localStorage.getItem('token');
+
         if (!window.confirm(`Czy chcesz wypożyczyć tę książkę?`)) {
             return;
         }
@@ -56,7 +58,7 @@ export const BooksList = ({userStatus}) => {
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify({
-                userId: userId,
+                userToken: token,
                 bookId: bookId,
             }),
         });
