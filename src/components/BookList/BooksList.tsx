@@ -52,13 +52,14 @@ export const BooksList = ({userStatus}) => {
             return;
         }
 
+
         await fetch(`http://localhost:3001/borrow`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
+                'Authorization': token,
             },
             body: JSON.stringify({
-                userToken: token,
                 bookId: bookId,
             }),
         });
